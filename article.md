@@ -20,7 +20,7 @@ Here is an example of a readable stream in Node:
     	console.log('The file has ended');
     });
 
-# Writable Streams
+## Writable Streams
 
 A stream consumer or a writable stream is an object that accepts data into it (think of a file we append to). It exposes the "write" method that we can use to write data to. Examples of typical writable streams in Node are: Server HTTP response body, a File which we append to, the process standard output, a TCP connection, etc.
 
